@@ -14,6 +14,7 @@
 		1AF43F4B1B3BA37F00349211 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF43F4A1B3BA37F00349211 /* Images.xcassets */; };
 		1AF43F4E1B3BA37F00349211 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AF43F4C1B3BA37F00349211 /* LaunchScreen.xib */; };
 		1AF43F5A1B3BA37F00349211 /* ____demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF43F591B3BA37F00349211 /* ____demoTests.m */; };
+		1AF43F651B3BB09200349211 /* UIView+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF43F641B3BB09200349211 /* UIView+MJ.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1AF43F531B3BA37F00349211 /* 侧滑视图demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "侧滑视图demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF43F581B3BA37F00349211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AF43F591B3BA37F00349211 /* ____demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____demoTests.m"; sourceTree = "<group>"; };
+		1AF43F631B3BB09200349211 /* UIView+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJ.h"; sourceTree = "<group>"; };
+		1AF43F641B3BB09200349211 /* UIView+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJ.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		1AF43F3C1B3BA37F00349211 /* 侧滑视图demo */ = {
 			isa = PBXGroup;
 			children = (
+				1AF43F631B3BB09200349211 /* UIView+MJ.h */,
+				1AF43F641B3BB09200349211 /* UIView+MJ.m */,
 				1AF43F411B3BA37F00349211 /* AppDelegate.h */,
 				1AF43F421B3BA37F00349211 /* AppDelegate.m */,
 				1AF43F441B3BA37F00349211 /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AF43F461B3BA37F00349211 /* ViewController.m in Sources */,
+				1AF43F651B3BB09200349211 /* UIView+MJ.m in Sources */,
 				1AF43F431B3BA37F00349211 /* AppDelegate.m in Sources */,
 				1AF43F401B3BA37F00349211 /* main.m in Sources */,
 			);
