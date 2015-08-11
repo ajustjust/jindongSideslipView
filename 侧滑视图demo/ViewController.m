@@ -116,7 +116,7 @@
         self.bg.alpha =1-(pan.view.x-self.distance)/self.sideslipView_W;
 
     
-        if (pan.view.x >= _distance+self.sideslipView_W) {
+        if (pan.view.x >= mainwidth) {
             pan.view.transform = CGAffineTransformMakeTranslation(self.sideslipView_W, 0);
         } else if (pan.view.x <= _distance) {
             pan.view.transform = CGAffineTransformIdentity;
@@ -134,7 +134,7 @@
     [UIView animateWithDuration:0.4f animations:^{
            self.bg.alpha = 0;
         
-            [self.sideslipView setFrame:CGRectMake(mainwidth, 0, mainwidth-_distance, mainheight)];
+            [self.sideslipView setFrame:CGRectMake(mainwidth, 0, self.sideslipView_W, mainheight)];
           
     } completion:^(BOOL finished) {
         
