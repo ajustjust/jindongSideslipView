@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 itcast. All rights reserved.
 //
 
-#import "UIView+MJ.h"
+#import "UIView+YH.h"
 
-@implementation UIView (MJ)
+@implementation UIView (YH)
 - (void)setX:(CGFloat)x
 {
     CGRect frame = self.frame;

@@ -7,7 +7,7 @@
 //京东详情页规格按钮特效
 
 #import "ViewController.h"
-#import "UIView+MJ.h"
+#import "UIView+YH.h"
 // 2.获得RGB颜色
 #define Color(r, g, b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
 
@@ -52,12 +52,14 @@
     bg.backgroundColor =Color(0, 0, 0,0.8);
     [self.view addSubview:bg];
      self.bg = bg;
-
-    self.sideslipView = [[UIView alloc]init];
+   
+    
     //侧拉视图距离左边的距离
     self.distance = 100;
     //侧拉视图的宽度
     self.sideslipView_W = mainwidth-100;
+    
+    self.sideslipView = [[UIView alloc]init];
     self.sideslipView.frame = CGRectMake(mainwidth, 0,  self.sideslipView_W, mainheight);
     self.sideslipView.backgroundColor = [UIColor blueColor];
     [self.view addSubview: self.sideslipView];
